@@ -161,21 +161,28 @@ input[type="submit"] {
   font-size: 25px;
  }
 
-#bottom-section a {
-  display: block;
-  text-decoration: none; 
-  background-color: black;
-  color: white; 
-  padding: 10px 20px; 
-  box-shadow: 8px 8px 0 rgba(128, 83, 35, 0.2); 
- }
-
-.final-link {
-  width: 100%; 
+ #last-link {
   display: flex;
   justify-content: center; 
   align-items: center; 
 }
+
+.final-link {
+  text-decoration: none;
+  background-color: black;
+  padding: 10px 20px;
+  box-shadow: 8px 8px 0 rgba(128, 83, 35, 0.2); 
+  color: white !important; 
+  width: fit-content;
+  text-align: center;
+}
+
+
+
+
+
+
+
 
 
 
